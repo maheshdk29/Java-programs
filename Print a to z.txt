@@ -1,0 +1,15 @@
+package mahi;
+
+import java.util.Scanner;
+
+public class Print_a_To_z {
+	public static void main(String[] args) {
+		char start='a';
+		
+		while(start <= 'z') {
+			System.out.println(start);
+			start++;
+		}
+	}
+
+}
