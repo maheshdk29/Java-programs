@@ -1,0 +1,21 @@
+package mahi;
+
+import java.util.Scanner;
+
+public class AlphabetOrNot  {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the character");
+		
+		char c = s.next().charAt(0);
+		
+		if((c>='a' && c<='z') || (c>='A' && c<='Z')) {
+			System.out.println("It is an alphabet");
+		}
+		else {
+			System.out.println("It is not an alphabet");
+		}
+		
+	}
+
+}
