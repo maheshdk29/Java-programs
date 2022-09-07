@@ -1,0 +1,15 @@
+package mahi;
+
+import java.util.Scanner;
+
+public class Print_0_To_100 {
+	public static void main(String[] args) {
+		int start=0;
+		
+		while(start <= 100) {
+			System.out.println(start);
+			start++;
+		}
+	}
+
+}
