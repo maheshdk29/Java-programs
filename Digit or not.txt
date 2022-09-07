@@ -1,0 +1,21 @@
+package mahi;
+
+import java.util.Scanner;
+
+public class DigitOrNot {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the digit");
+		
+		char c = s.next().charAt(0);
+		
+		if(c>='0' && c<='9') {
+			System.out.println("It is digit");
+		}
+		else {
+			System.out.println("It is not digit");
+		}
+		
+	}
+
+}
