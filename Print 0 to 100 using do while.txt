@@ -1,0 +1,16 @@
+package mahi;
+import java.util.Scanner;
+
+public class Range_0_100 {
+	public static void main(String[] args) {
+		int start = 0;
+		
+		do {
+			System.out.println(start);
+			start++;
+	}
+		while(start <= 100);
+		
+	}
+
+}
